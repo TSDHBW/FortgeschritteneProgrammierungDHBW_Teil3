@@ -97,7 +97,7 @@ public class Rezeptverwaltung {
 
             } else {
 
-                System.out.println("Zutatenverwaltung ist voll");
+                System.out.println("Die Rezepteverwaltung ist voll");
 
             }
 

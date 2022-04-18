@@ -8,7 +8,6 @@ public class MVCModel {
     Rezeptverwaltung rezeptverwaltung;
     Kundenverwaltung kundenverwaltung;
     Zutatenverwaltung zutatenverwaltung;
-    Bestellung[] bestellungen;
 
     public MVCModel(){
 
@@ -16,12 +15,12 @@ public class MVCModel {
 
     }
 
+
     public void init(){
 
         rezeptverwaltung = new Rezeptverwaltung();
         kundenverwaltung = new Kundenverwaltung();
         zutatenverwaltung = new Zutatenverwaltung();
-        bestellungen = new Bestellung[1000];
 
         System.out.println("Initialisieren des Datenmodells abgeschlossen");
 
